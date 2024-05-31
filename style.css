@@ -319,6 +319,75 @@ nav{
     margin-bottom: 10px;
 }
 
+.facebook{
+    width: 100%;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 40px;
+    padding-block: 20px;
+}
+
+.twitter{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.twitter i{
+    color: #f6f6f6;
+    font-size: 20px;
+}
+
+.location{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location p{
+    color: #f6f6f6;
+    font-size: 15px;
+}
+
+.apple{
+    width: 100%;
+    background-color: black;
+    padding-block: 20px;
+}
+
+.google{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding-left: 40px;
+    
+}
+
+.google img{
+    width: 100px;
+    height: 70px;
+}
+
+.uber{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-inline: 40px;
+}
+
+.uber p{
+    font-size: 12px;
+    color: #AFAFAF;
+}
 
 /* responsive */
 
@@ -354,12 +423,13 @@ nav{
     }
 
     .headimg{
-        width: 100%;
+        width: 90%;
+        margin: 0;
+        padding: 0;
     }
-
     .headimg img{
-        width: 470px;
-        height: 599px;
+        width: 380px;
+        height: 509px;
     }
 
     .centre{
@@ -368,6 +438,7 @@ nav{
 
     .centretxt{
         width: 100%;
+        
     }
 
     .centreimg{
@@ -379,7 +450,7 @@ nav{
     }
 
     .centretxt h1{
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .centretxt p{
@@ -396,6 +467,74 @@ nav{
 
     .footerlist ul{
         margin-block: 20px;
+    }
+
+    .cardimg{
+        display: none;
+    }
+
+    .cards{
+        flex-direction: column;
+        
+    }
+
+    .card1{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        margin-block: 30px;
+    }
+
+    .centretxt{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+   
+
+    
+    .cardtxt h1{
+        font-size: 15px;
+    }
+
+
+    .centretxt p{
+        font-size: 12px;
+    }
+
+    .centretxt span{
+        width: 100%;
+    }
+
+    .centretxt button{
+        font-size: 12px;
+    }
+    .centretxt a{
+        font-size: 12px;
+    }
+
+    .facebook{
+        flex-direction: column;
+    }
+
+    .twitter{
+        width: 60%;
+        padding-block: 20px;
+    }
+
+
+    .location{
+        width: 50%;
+        display: flex;
+    }
+
+    .google{
+        flex-direction: column;
     }
 }
 
