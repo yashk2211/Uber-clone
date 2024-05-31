@@ -443,22 +443,32 @@ nav{
 
     .centreimg{
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
     }
 
     .centreimg img{
         width: 300px;
+        padding: 0;
+        margin-left: 0;
     }
 
     .centretxt h1{
         font-size: 17px;
+        margin-left: 20px;
     }
 
     .centretxt p{
         font-size: 15px;
+        margin-left: 20px;
     }
 
     .centretxt button{
         padding: 10px;
+        margin-left: 20px;
     }
 
     .footerlist{
